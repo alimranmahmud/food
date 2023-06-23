@@ -1,0 +1,63 @@
+1: 1st time amader cd die project a jete hobe.
+
+2: firebase init
+
+3: Y
+
+4: Hosting: Configure files for Firvase Hosting and (optional) set up 
+   Github Action deploys
+
+5: Y
+
+6: jei project deploy korbo seita select korte hobe.
+
+7: build
+
+8: Y
+
+9: N
+
+10: Y
+
+11: npm run build 
+
+12: firebase deploy
+         
+                  Server
+
+
+1: 1: 1st time amader cd die project a jete hobe.
+
+2: vercel
+
+3: akon server code a gie vercel.json name a akta file kule: 
+   {
+    "version": 2,
+    "builds": [
+        {
+            "src": "./index.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ]
+}
+aita bosano lagbe
+
+4: akon scripts a gie "build":node index.js, aita bosano lagbe
+
+5: Y
+
+6: Y
+'
+7: N
+
+8: enter
+
+9: enter
+
+10: 
